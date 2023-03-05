@@ -15,8 +15,7 @@ submit.addEventListener("submit", (e) => {
 <br>
 <b>Phone no: </b>${phone.value}
 <br>
-<b> Message: </b>${message.value}
-`;
+<b> Message: </b>${message.value}`;
   Email.send({
     SecureToken: "7a0415fe-dd69-4152-846e-199a34bdbe26",
     To: "madhukumar.naidu@gmail.com",
